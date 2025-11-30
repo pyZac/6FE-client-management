@@ -1,0 +1,4 @@
+"id","username","telegram_id","attendedBy","amount","paymentPlan","commission","ExpDate","status","created_at","updated_at","updatePayment_at","removed_from_groups","reminder_3day_sent"
+"32","6feusername","00000","main_984","299","Standard","45","2025-12-18","0","2023-08-01 06:44:37","2025-04-08 22:10:41",NULL,"0","0"
+"33","6feusername-01","00000","6figureearner","299","Standard","45","2025-12-18","0","2023-08-01 12:47:36","2025-04-08 22:10:41",NULL,"1","0"
+"65","6feusername-02","0","Hibasalman","599","Pro","52.5","2030-09-18","0","2023-08-18 23:29:48","2025-04-08 22:10:41",NULL,"1","0"
