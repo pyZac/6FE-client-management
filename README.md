@@ -12,7 +12,7 @@ This project establishes a **production-grade data pipeline** that:
 - Enables SQL-based cohort analysis and subscription metrics tracking
 - Provides the data foundation for downstream ML models and dashboards
 
-**Business Context:** Built for a subscription-based online education platform (6 Figure Earner) managing ~500+ active members across multiple payment tiers.
+**Business Context:** Built for a subscription-based online education platform (6 Figure Earner) managing ~20+ active members across multiple payment tiers.
 
 ---
 
@@ -44,7 +44,7 @@ This project establishes a **production-grade data pipeline** that:
 ### 1. **ETL Layer** (`/etl/`)
 Automated data extraction and loading system:
 - **fetch.js**: Database query engine and data sync orchestration
-- **bot.js**: Event-driven data collection from Telegram API
+- **extract.js**: Event-driven data collection from Telegram API
 - Real-time membership status tracking
 - Scheduled data refreshes via polling mechanism
 
@@ -184,7 +184,7 @@ CREATE TABLE payment (
 ```
 subscription-analytics-pipeline/
 ├── etl/                      # Data extraction & loading
-│   ├── bot.js               # Event collection orchestrator
+│   ├── extract.js               # Event collection orchestrator
 │   └── fetch.js             # Database sync engine
 ├── exploratory_analysis/     # SQL & Python analytics
 │   ├── pandasql.ipynb       # SQL-based analysis
@@ -248,5 +248,5 @@ This is a portfolio project demonstrating data analytics engineering skills. Fee
 
 ---
 
-**Built by Zac** | [LinkedIn](#) | [Portfolio](#)  
-*Data & Automation Specialist transitioning to Analytics Engineering*
+**Built by Saqer Terkawi** | [LinkedIn](#) | [Portfolio](#)  
+
